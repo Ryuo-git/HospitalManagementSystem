@@ -43,5 +43,12 @@ namespace HospitalManagementSystem
                                     $"Specialization: {doctor.Specialization}");
             }
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e) //pctHome
+        {
+            Home home = new Home();
+            home.Show();
+            this.Close();
+        }
     }
 }

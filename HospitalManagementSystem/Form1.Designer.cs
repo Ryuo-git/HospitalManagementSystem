@@ -46,7 +46,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.Black;
+            this.panel1.BackColor = System.Drawing.Color.Navy;
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
@@ -76,7 +76,7 @@
             this.txtusername.BackColor = System.Drawing.Color.White;
             this.txtusername.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtusername.Font = new System.Drawing.Font("Yu Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtusername.Location = new System.Drawing.Point(284, 285);
+            this.txtusername.Location = new System.Drawing.Point(284, 288);
             this.txtusername.Name = "txtusername";
             this.txtusername.Size = new System.Drawing.Size(273, 28);
             this.txtusername.TabIndex = 3;
@@ -86,7 +86,7 @@
             this.txtpassword.BackColor = System.Drawing.Color.White;
             this.txtpassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtpassword.Font = new System.Drawing.Font("Yu Gothic", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtpassword.Location = new System.Drawing.Point(284, 348);
+            this.txtpassword.Location = new System.Drawing.Point(284, 349);
             this.txtpassword.Name = "txtpassword";
             this.txtpassword.Size = new System.Drawing.Size(273, 21);
             this.txtpassword.TabIndex = 6;
@@ -114,7 +114,7 @@
             // 
             this.btnlogin.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnlogin.Font = new System.Drawing.Font("Yu Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnlogin.Location = new System.Drawing.Point(238, 388);
+            this.btnlogin.Location = new System.Drawing.Point(238, 393);
             this.btnlogin.Name = "btnlogin";
             this.btnlogin.Size = new System.Drawing.Size(320, 42);
             this.btnlogin.TabIndex = 7;
@@ -126,7 +126,8 @@
             // 
             this.lblexit.AutoSize = true;
             this.lblexit.Font = new System.Drawing.Font("Yu Gothic", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblexit.Location = new System.Drawing.Point(372, 431);
+            this.lblexit.ForeColor = System.Drawing.Color.DeepSkyBlue;
+            this.lblexit.Location = new System.Drawing.Point(372, 439);
             this.lblexit.Name = "lblexit";
             this.lblexit.Size = new System.Drawing.Size(38, 17);
             this.lblexit.TabIndex = 8;

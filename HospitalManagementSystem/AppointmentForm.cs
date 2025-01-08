@@ -55,5 +55,17 @@ namespace HospitalManagementSystem
                 lsAppointment.Items.Add($"ID: {appointment.ID}, Patient: {appointment.PatientName}");
             }
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e) //pctHome
+        {
+            Home home = new Home();
+            home.Show();
+            this.Close();
+        }
+
+        private void btnx_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

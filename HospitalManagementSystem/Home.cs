@@ -51,5 +51,10 @@ namespace HospitalManagementSystem
             hospitalMapForm.Show();
             this.Hide();
         }
+
+        private void btnx_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

@@ -55,5 +55,17 @@ namespace HospitalManagementSystem
                                      $"Quantity: {medicine.Quantity}");
             }
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            Home home = new Home();
+            home.Show();
+            this.Close();
+        }
+
+        private void btnx_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

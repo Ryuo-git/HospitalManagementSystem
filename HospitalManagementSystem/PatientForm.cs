@@ -36,6 +36,18 @@ namespace HospitalManagementSystem
             int id = int.Parse(txtPatientID.Text);
             patientList.DeletePatient(id);
             MessageBox.Show("Patient deleted successfully!");
+
+            var patients = patientList.GetPatients();
+            lsPatients.Items.Clear(); // Clear the ListBox first.
+
+            foreach (var patient in patients)
+            {
+                lsPatients.Items.Add($"Name: {patient.Name}, " +
+                                     $"Age: {patient.Age}," +
+                                     $"ID: {patient.ID}, " +
+                                     $"Illness: {patient.Illness}");
+            }
+
         }
 
         private void button3_Click(object sender, EventArgs e) //btnViewPatient
@@ -52,6 +64,16 @@ namespace HospitalManagementSystem
             }
         }
 
-       
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            Home home = new Home();
+            home.Show();
+            this.Close();
+        }
+
+        private void btnx_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
