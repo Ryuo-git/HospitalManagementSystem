@@ -15,6 +15,8 @@ namespace HospitalManagementSystem
         public Home()
         {
             InitializeComponent();
+
+            // si MERTs to
         }
 
         private void button1_Click(object sender, EventArgs e)
