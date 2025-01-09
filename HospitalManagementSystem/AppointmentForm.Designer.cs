@@ -47,40 +47,45 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Georgia", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(34, 64);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(94, 16);
+            this.label1.Size = new System.Drawing.Size(97, 16);
             this.label1.TabIndex = 0;
             this.label1.Text = "Patient Name :";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Georgia", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(34, 95);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(127, 16);
+            this.label2.Size = new System.Drawing.Size(140, 16);
             this.label2.TabIndex = 1;
             this.label2.Text = "For Appointment ID :";
             // 
             // txtPatientName
             // 
-            this.txtPatientName.Location = new System.Drawing.Point(170, 61);
+            this.txtPatientName.Font = new System.Drawing.Font("Georgia", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPatientName.Location = new System.Drawing.Point(200, 61);
             this.txtPatientName.Name = "txtPatientName";
-            this.txtPatientName.Size = new System.Drawing.Size(212, 22);
+            this.txtPatientName.Size = new System.Drawing.Size(300, 25);
             this.txtPatientName.TabIndex = 2;
             // 
             // txtAppointmentId
             // 
-            this.txtAppointmentId.Location = new System.Drawing.Point(170, 92);
+            this.txtAppointmentId.Font = new System.Drawing.Font("Georgia", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAppointmentId.Location = new System.Drawing.Point(200, 92);
             this.txtAppointmentId.Name = "txtAppointmentId";
-            this.txtAppointmentId.Size = new System.Drawing.Size(212, 22);
+            this.txtAppointmentId.Size = new System.Drawing.Size(300, 25);
             this.txtAppointmentId.TabIndex = 3;
             // 
             // btnAddAppointment
             // 
-            this.btnAddAppointment.Location = new System.Drawing.Point(200, 120);
+            this.btnAddAppointment.Font = new System.Drawing.Font("Georgia", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddAppointment.Location = new System.Drawing.Point(276, 120);
             this.btnAddAppointment.Name = "btnAddAppointment";
-            this.btnAddAppointment.Size = new System.Drawing.Size(151, 23);
+            this.btnAddAppointment.Size = new System.Drawing.Size(182, 25);
             this.btnAddAppointment.TabIndex = 4;
             this.btnAddAppointment.Text = "Add Appointment";
             this.btnAddAppointment.UseVisualStyleBackColor = true;
@@ -88,9 +93,10 @@
             // 
             // btnProcessAppointment
             // 
-            this.btnProcessAppointment.Location = new System.Drawing.Point(243, 303);
+            this.btnProcessAppointment.Font = new System.Drawing.Font("Georgia", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnProcessAppointment.Location = new System.Drawing.Point(305, 317);
             this.btnProcessAppointment.Name = "btnProcessAppointment";
-            this.btnProcessAppointment.Size = new System.Drawing.Size(151, 23);
+            this.btnProcessAppointment.Size = new System.Drawing.Size(195, 31);
             this.btnProcessAppointment.TabIndex = 5;
             this.btnProcessAppointment.Text = "Process Appointment";
             this.btnProcessAppointment.UseVisualStyleBackColor = true;
@@ -98,18 +104,20 @@
             // 
             // lsAppointment
             // 
+            this.lsAppointment.Font = new System.Drawing.Font("Georgia", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lsAppointment.FormattingEnabled = true;
-            this.lsAppointment.ItemHeight = 16;
-            this.lsAppointment.Location = new System.Drawing.Point(37, 149);
+            this.lsAppointment.ItemHeight = 18;
+            this.lsAppointment.Location = new System.Drawing.Point(37, 163);
             this.lsAppointment.Name = "lsAppointment";
-            this.lsAppointment.Size = new System.Drawing.Size(357, 148);
+            this.lsAppointment.Size = new System.Drawing.Size(463, 148);
             this.lsAppointment.TabIndex = 6;
             // 
             // btnViewAppointment
             // 
-            this.btnViewAppointment.Location = new System.Drawing.Point(37, 303);
+            this.btnViewAppointment.Font = new System.Drawing.Font("Georgia", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnViewAppointment.Location = new System.Drawing.Point(37, 317);
             this.btnViewAppointment.Name = "btnViewAppointment";
-            this.btnViewAppointment.Size = new System.Drawing.Size(151, 23);
+            this.btnViewAppointment.Size = new System.Drawing.Size(192, 31);
             this.btnViewAppointment.TabIndex = 7;
             this.btnViewAppointment.Text = "View Appointment";
             this.btnViewAppointment.UseVisualStyleBackColor = true;
@@ -122,7 +130,7 @@
             this.btnx.FlatAppearance.BorderSize = 0;
             this.btnx.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnx.Image = ((System.Drawing.Image)(resources.GetObject("btnx.Image")));
-            this.btnx.Location = new System.Drawing.Point(378, 0);
+            this.btnx.Location = new System.Drawing.Point(477, 0);
             this.btnx.Name = "btnx";
             this.btnx.Size = new System.Drawing.Size(45, 52);
             this.btnx.TabIndex = 1;
@@ -137,7 +145,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(423, 52);
+            this.panel1.Size = new System.Drawing.Size(522, 52);
             this.panel1.TabIndex = 13;
             // 
             // pictureBox1
@@ -156,7 +164,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(423, 374);
+            this.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.ClientSize = new System.Drawing.Size(522, 374);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnViewAppointment);
             this.Controls.Add(this.lsAppointment);

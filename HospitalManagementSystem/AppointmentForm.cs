@@ -26,7 +26,7 @@ namespace HospitalManagementSystem
             string patientName = txtPatientName.Text;
             int id = int.Parse(txtAppointmentId.Text);
 
-            appointmentQueue.AddAppointment(id, patientName);
+            appointmentQueue.AddAppointment(patientName, id);
             MessageBox.Show("Appointment added successfully!");
         }
 
@@ -36,13 +36,14 @@ namespace HospitalManagementSystem
 
             if (appointment != null)
             {
-                MessageBox.Show($"Processed Appointment - ID: {appointment.ID}, " +
-                                $"Patient: {appointment.PatientName}");
+                MessageBox.Show($"Patient: {appointment.PatientName}, " +
+                                $"Processed Appointment - ID: {appointment.ID}");
             }
             else
             {
                 MessageBox.Show("No appointments to process.");
             }
+
         }
 
         private void btnViewAppointment_Click(object sender, EventArgs e)
@@ -52,7 +53,8 @@ namespace HospitalManagementSystem
 
             foreach (var appointment in appointments)
             {
-                lsAppointment.Items.Add($"ID: {appointment.ID}, Patient: {appointment.PatientName}");
+                lsAppointment.Items.Add($"Patient: {appointment.PatientName}, " +
+                                        $"ID: {appointment.ID}");
             }
         }
 

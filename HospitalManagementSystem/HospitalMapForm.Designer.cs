@@ -47,17 +47,19 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(308, 57);
+            this.label1.Font = new System.Drawing.Font("Georgia", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(239, 68);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(155, 16);
+            this.label1.Size = new System.Drawing.Size(332, 27);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Hospital Map Navigation";
+            this.label1.Text = "\"Hospital Map Navigation\"";
             // 
             // btnDisplayGraph
             // 
-            this.btnDisplayGraph.Location = new System.Drawing.Point(44, 179);
+            this.btnDisplayGraph.Font = new System.Drawing.Font("Georgia", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDisplayGraph.Location = new System.Drawing.Point(44, 212);
             this.btnDisplayGraph.Name = "btnDisplayGraph";
-            this.btnDisplayGraph.Size = new System.Drawing.Size(144, 25);
+            this.btnDisplayGraph.Size = new System.Drawing.Size(157, 36);
             this.btnDisplayGraph.TabIndex = 2;
             this.btnDisplayGraph.Text = "Display Graph";
             this.btnDisplayGraph.UseVisualStyleBackColor = true;
@@ -65,7 +67,8 @@
             // 
             // btnAddRoom
             // 
-            this.btnAddRoom.Location = new System.Drawing.Point(44, 83);
+            this.btnAddRoom.Font = new System.Drawing.Font("Georgia", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddRoom.Location = new System.Drawing.Point(44, 116);
             this.btnAddRoom.Name = "btnAddRoom";
             this.btnAddRoom.Size = new System.Drawing.Size(144, 25);
             this.btnAddRoom.TabIndex = 3;
@@ -75,7 +78,8 @@
             // 
             // btnAddConnection
             // 
-            this.btnAddConnection.Location = new System.Drawing.Point(44, 114);
+            this.btnAddConnection.Font = new System.Drawing.Font("Georgia", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddConnection.Location = new System.Drawing.Point(44, 147);
             this.btnAddConnection.Name = "btnAddConnection";
             this.btnAddConnection.Size = new System.Drawing.Size(144, 25);
             this.btnAddConnection.TabIndex = 4;
@@ -85,32 +89,36 @@
             // 
             // txtRoomName
             // 
-            this.txtRoomName.Location = new System.Drawing.Point(207, 86);
+            this.txtRoomName.Font = new System.Drawing.Font("Georgia", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtRoomName.Location = new System.Drawing.Point(207, 119);
             this.txtRoomName.Name = "txtRoomName";
-            this.txtRoomName.Size = new System.Drawing.Size(549, 22);
+            this.txtRoomName.Size = new System.Drawing.Size(549, 25);
             this.txtRoomName.TabIndex = 5;
             // 
             // txtRoom1
             // 
-            this.txtRoom1.Location = new System.Drawing.Point(207, 114);
+            this.txtRoom1.Font = new System.Drawing.Font("Georgia", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtRoom1.Location = new System.Drawing.Point(207, 147);
             this.txtRoom1.Name = "txtRoom1";
-            this.txtRoom1.Size = new System.Drawing.Size(549, 22);
+            this.txtRoom1.Size = new System.Drawing.Size(549, 25);
             this.txtRoom1.TabIndex = 6;
             // 
             // lsDisplayGraph
             // 
+            this.lsDisplayGraph.Font = new System.Drawing.Font("Georgia", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lsDisplayGraph.FormattingEnabled = true;
             this.lsDisplayGraph.ItemHeight = 16;
-            this.lsDisplayGraph.Location = new System.Drawing.Point(207, 181);
+            this.lsDisplayGraph.Location = new System.Drawing.Point(207, 214);
             this.lsDisplayGraph.Name = "lsDisplayGraph";
             this.lsDisplayGraph.Size = new System.Drawing.Size(549, 212);
             this.lsDisplayGraph.TabIndex = 7;
             // 
             // txtRoom2
             // 
-            this.txtRoom2.Location = new System.Drawing.Point(207, 142);
+            this.txtRoom2.Font = new System.Drawing.Font("Georgia", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtRoom2.Location = new System.Drawing.Point(207, 175);
             this.txtRoom2.Name = "txtRoom2";
-            this.txtRoom2.Size = new System.Drawing.Size(549, 22);
+            this.txtRoom2.Size = new System.Drawing.Size(549, 25);
             this.txtRoom2.TabIndex = 8;
             // 
             // btnx
@@ -154,6 +162,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.txtRoom2);
@@ -164,6 +173,7 @@
             this.Controls.Add(this.btnAddRoom);
             this.Controls.Add(this.btnDisplayGraph);
             this.Controls.Add(this.label1);
+            this.ForeColor = System.Drawing.Color.Black;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "HospitalMapForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

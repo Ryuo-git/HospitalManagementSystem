@@ -48,56 +48,63 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Georgia", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(31, 81);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(50, 16);
+            this.label1.Size = new System.Drawing.Size(57, 16);
             this.label1.TabIndex = 0;
             this.label1.Text = "Name :";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Georgia", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(31, 109);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(81, 16);
+            this.label2.Size = new System.Drawing.Size(97, 16);
             this.label2.TabIndex = 1;
             this.label2.Text = "Experience :";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Georgia", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(31, 141);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(97, 16);
+            this.label3.Size = new System.Drawing.Size(116, 16);
             this.label3.TabIndex = 2;
             this.label3.Text = "Specialization :";
             // 
             // txtDoctorName
             // 
-            this.txtDoctorName.Location = new System.Drawing.Point(134, 78);
+            this.txtDoctorName.Font = new System.Drawing.Font("Georgia", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDoctorName.Location = new System.Drawing.Point(179, 76);
             this.txtDoctorName.Name = "txtDoctorName";
-            this.txtDoctorName.Size = new System.Drawing.Size(243, 22);
+            this.txtDoctorName.Size = new System.Drawing.Size(388, 25);
             this.txtDoctorName.TabIndex = 3;
             // 
             // txtDoctorExperience
             // 
-            this.txtDoctorExperience.Location = new System.Drawing.Point(134, 106);
+            this.txtDoctorExperience.Font = new System.Drawing.Font("Georgia", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDoctorExperience.Location = new System.Drawing.Point(179, 104);
             this.txtDoctorExperience.Name = "txtDoctorExperience";
-            this.txtDoctorExperience.Size = new System.Drawing.Size(243, 22);
+            this.txtDoctorExperience.Size = new System.Drawing.Size(388, 25);
             this.txtDoctorExperience.TabIndex = 4;
             // 
             // txtDoctorSpecialization
             // 
-            this.txtDoctorSpecialization.Location = new System.Drawing.Point(134, 138);
+            this.txtDoctorSpecialization.Font = new System.Drawing.Font("Georgia", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDoctorSpecialization.Location = new System.Drawing.Point(179, 136);
             this.txtDoctorSpecialization.Name = "txtDoctorSpecialization";
-            this.txtDoctorSpecialization.Size = new System.Drawing.Size(243, 22);
+            this.txtDoctorSpecialization.Size = new System.Drawing.Size(388, 25);
             this.txtDoctorSpecialization.TabIndex = 5;
             // 
             // btnAddDoctor
             // 
-            this.btnAddDoctor.Location = new System.Drawing.Point(189, 174);
+            this.btnAddDoctor.Font = new System.Drawing.Font("Georgia", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddDoctor.Location = new System.Drawing.Point(169, 366);
             this.btnAddDoctor.Name = "btnAddDoctor";
-            this.btnAddDoctor.Size = new System.Drawing.Size(117, 28);
+            this.btnAddDoctor.Size = new System.Drawing.Size(134, 28);
             this.btnAddDoctor.TabIndex = 6;
             this.btnAddDoctor.Text = "Add Doctor";
             this.btnAddDoctor.UseVisualStyleBackColor = true;
@@ -105,9 +112,10 @@
             // 
             // btnViewDoctor
             // 
-            this.btnViewDoctor.Location = new System.Drawing.Point(34, 212);
+            this.btnViewDoctor.Font = new System.Drawing.Font("Georgia", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnViewDoctor.Location = new System.Drawing.Point(309, 366);
             this.btnViewDoctor.Name = "btnViewDoctor";
-            this.btnViewDoctor.Size = new System.Drawing.Size(94, 28);
+            this.btnViewDoctor.Size = new System.Drawing.Size(115, 28);
             this.btnViewDoctor.TabIndex = 7;
             this.btnViewDoctor.Text = "View Doctor";
             this.btnViewDoctor.UseVisualStyleBackColor = true;
@@ -115,11 +123,12 @@
             // 
             // lsDoctors
             // 
+            this.lsDoctors.Font = new System.Drawing.Font("Georgia", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lsDoctors.FormattingEnabled = true;
             this.lsDoctors.ItemHeight = 16;
-            this.lsDoctors.Location = new System.Drawing.Point(134, 217);
+            this.lsDoctors.Location = new System.Drawing.Point(34, 180);
             this.lsDoctors.Name = "lsDoctors";
-            this.lsDoctors.Size = new System.Drawing.Size(242, 180);
+            this.lsDoctors.Size = new System.Drawing.Size(533, 180);
             this.lsDoctors.TabIndex = 8;
             // 
             // btnx
@@ -129,7 +138,7 @@
             this.btnx.FlatAppearance.BorderSize = 0;
             this.btnx.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnx.Image = ((System.Drawing.Image)(resources.GetObject("btnx.Image")));
-            this.btnx.Location = new System.Drawing.Point(379, 0);
+            this.btnx.Location = new System.Drawing.Point(555, 0);
             this.btnx.Name = "btnx";
             this.btnx.Size = new System.Drawing.Size(45, 52);
             this.btnx.TabIndex = 1;
@@ -143,7 +152,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(424, 52);
+            this.panel1.Size = new System.Drawing.Size(600, 52);
             this.panel1.TabIndex = 13;
             // 
             // pictureBox1
@@ -162,7 +171,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(424, 454);
+            this.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.ClientSize = new System.Drawing.Size(600, 425);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.lsDoctors);
             this.Controls.Add(this.btnViewDoctor);

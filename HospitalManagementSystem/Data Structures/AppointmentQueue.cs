@@ -8,17 +8,17 @@ namespace HospitalManagementSystem.Data_Structures
 {
     public class Appointment
     {
-        public int ID { get; set; }
         public string PatientName { get; set; }
+        public int ID { get; set; }
     }
 
     public class AppointmentQueue
     {
         private Queue<Appointment> queue = new Queue<Appointment>();
 
-        public void AddAppointment(int id, string patientName)
+        public void AddAppointment(string patientName, int id)
         {
-            queue.Enqueue(new Appointment { ID = id, PatientName = patientName });
+            queue.Enqueue(new Appointment { PatientName = patientName, ID = id});
         }
 
         public Appointment ProcessAppointment()
