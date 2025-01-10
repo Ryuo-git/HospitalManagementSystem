@@ -69,7 +69,7 @@
             this.txtMedicineName.Font = new System.Drawing.Font("Georgia", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtMedicineName.Location = new System.Drawing.Point(171, 55);
             this.txtMedicineName.Name = "txtMedicineName";
-            this.txtMedicineName.Size = new System.Drawing.Size(285, 27);
+            this.txtMedicineName.Size = new System.Drawing.Size(368, 27);
             this.txtMedicineName.TabIndex = 2;
             // 
             // txtMedicineQuantity
@@ -77,7 +77,7 @@
             this.txtMedicineQuantity.Font = new System.Drawing.Font("Georgia", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtMedicineQuantity.Location = new System.Drawing.Point(171, 83);
             this.txtMedicineQuantity.Name = "txtMedicineQuantity";
-            this.txtMedicineQuantity.Size = new System.Drawing.Size(285, 27);
+            this.txtMedicineQuantity.Size = new System.Drawing.Size(368, 27);
             this.txtMedicineQuantity.TabIndex = 3;
             // 
             // btnAddMedicine
@@ -109,7 +109,7 @@
             this.lsMedicine.ItemHeight = 20;
             this.lsMedicine.Location = new System.Drawing.Point(171, 126);
             this.lsMedicine.Name = "lsMedicine";
-            this.lsMedicine.Size = new System.Drawing.Size(285, 184);
+            this.lsMedicine.Size = new System.Drawing.Size(368, 184);
             this.lsMedicine.TabIndex = 6;
             // 
             // btnViewMedicine
@@ -130,7 +130,7 @@
             this.btnx.FlatAppearance.BorderSize = 0;
             this.btnx.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnx.Image = ((System.Drawing.Image)(resources.GetObject("btnx.Image")));
-            this.btnx.Location = new System.Drawing.Point(446, 0);
+            this.btnx.Location = new System.Drawing.Point(527, 0);
             this.btnx.Name = "btnx";
             this.btnx.Size = new System.Drawing.Size(45, 49);
             this.btnx.TabIndex = 1;
@@ -145,7 +145,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(491, 49);
+            this.panel1.Size = new System.Drawing.Size(572, 49);
             this.panel1.TabIndex = 13;
             // 
             // pictureBox1
@@ -165,7 +165,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.ClientSize = new System.Drawing.Size(491, 349);
+            this.ClientSize = new System.Drawing.Size(572, 349);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnViewMedicine);
             this.Controls.Add(this.lsMedicine);

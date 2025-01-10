@@ -17,12 +17,14 @@ namespace HospitalManagementSystem
             InitializeComponent();
         }
 
-        String[] username = { "jerome.pacheco@yahoo.com",
-                              "jam.conception@yahoo.com",
-                              "poginiarman21@yahoo.com",
-                              "vlue.afurong@gmail.com",
+        //username and password for log in.
+
+        String[] username = { "jerome.pacheco",
+                              "jam.conception",
+                              "poginiarman21",
+                              "vlue.afurong",
                               "jericho.jkl",
-                              "cy.123@outlook.com",
+                              "cy.123",
                               "admin"};
 
         String[] password = { "iamjerome",

@@ -17,8 +17,6 @@ namespace HospitalManagementSystem
         DataTable table = new DataTable("Table");
         int index;
 
-        private PatientLinkedList patientList = new PatientLinkedList();
-
         public PatientForm()
         {
             InitializeComponent();

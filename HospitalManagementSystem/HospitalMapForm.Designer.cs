@@ -48,11 +48,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Georgia", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(239, 68);
+            this.label1.Location = new System.Drawing.Point(321, 70);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(332, 27);
+            this.label1.Size = new System.Drawing.Size(308, 27);
             this.label1.TabIndex = 0;
-            this.label1.Text = "\"Hospital Map Navigation\"";
+            this.label1.Text = "Hospital Map Navigation";
             // 
             // btnDisplayGraph
             // 
